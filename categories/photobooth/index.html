@@ -20,7 +20,7 @@
 
   <!-- Main Stylesheet -->
   
-  <link rel="stylesheet" href="https://oyara.github.io/scss/style.css" media="screen">
+  <link rel="stylesheet" href="https://oyara.github.io/scss/style.scss" media="screen">
 
   <!--Favicon-->
   <link rel="shortcut icon" href="https://oyara.github.io/images/favicon.png" type="image/x-icon">
@@ -47,7 +47,7 @@
     
     <nav class="navbar navbar-expand-lg navbar-white">
       <a class="navbar-brand" href="/">
-        <img class="img-fluid" width="150px" src="https://oyara.github.io/images/logo.png" alt="LogBook | Hugo Personal Blog Template"></a>
+        <img class="img-fluid" width="150px" src="https://oyara.github.io/images/logo.png" alt="Rayo Blog"></a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu"></i>
       </button>
@@ -61,21 +61,7 @@
               aria-expanded="false">
               homepage <i class="ti-angle-down ml-1"></i>
             </a>
-            <div class="dropdown-menu">
-              
-              <a class="dropdown-item" href="http://demo.themefisher.com/logbook-hugo/full-width/">Homepage Full Width</a>
-              
-              <a class="dropdown-item" href="http://demo.themefisher.com/logbook-hugo/full-left/">Homepage Full With Left Sidebar</a>
-              
-              <a class="dropdown-item" href="http://demo.themefisher.com/logbook-hugo/full-right/">Homepage Full With Right Sidebar</a>
-              
-              <a class="dropdown-item" href="http://demo.themefisher.com/logbook-hugo/list-style/">Homepage List Style</a>
-              
-              <a class="dropdown-item" href="http://demo.themefisher.com/logbook-hugo/list-left/">Homepage List With Left Sidebar</a>
-              
-              <a class="dropdown-item" href="https://oyara.github.io/">Homepage List With Right Sidebar</a>
-              
-            </div>
+            
           </li>
           
           
@@ -105,7 +91,7 @@
               
               <a class="dropdown-item" href="https://oyara.github.io/tags/photo">Tags</a>
               
-              <a class="dropdown-item" href="http://demo.themefisher.com/logbook-hugo/full-width/search/?s=image">Search</a>
+              <a class="dropdown-item" href="https://oyara.github.io/search/?s=image">Search</a>
               
             </div>
           </li>
@@ -152,7 +138,7 @@
         <div class="search px-4">
           <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
           <div class="search-wrapper">
-            <form action="//search" class="h-100">
+            <form action="/search" class="h-100">
               <input class="search-box pl-4" id="search-query" name="s" type="search" placeholder="Type &amp; Hit Enter...">
             </form>
             <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
@@ -209,15 +195,15 @@
             <h3 class="h5"><a class="post-title" href="https://oyara.github.io/post/post-2/">Cheerful Loving Couple Bakers Drinking Coffee</a></h3>
             <ul class="list-inline post-meta mb-2">
               <li class="list-inline-item"><i class="ti-user mr-2"></i><a
-                  href="//author/john-doe/">John Doe</a></li>
+                  href="/author/john-doe/">John Doe</a></li>
               <li class="list-inline-item">Date : March 14, 2020</li>
               <li class="list-inline-item">Categories :
                 <a
-                  href="//categories/photobooth" class="ml-1">Photobooth </a>
+                  href="/categories/photobooth" class="ml-1">Photobooth </a>
                 </li>
               <li class="list-inline-item">Tags : <a
-                  href="//tags/booth" class="ml-1">Booth </a> ,<a
-                  href="//tags/image" class="ml-1">Image </a> 
+                  href="/tags/booth" class="ml-1">Booth </a> ,<a
+                  href="/tags/image" class="ml-1">Image </a> 
               </li>
             </ul>
             <p>
@@ -254,7 +240,7 @@
 
 <div class="widget">
   <h5 class="widget-title"><span>Search</span></h5>
-  <form action="//search" class="widget-search">
+  <form action="/search" class="widget-search">
     <input id="search-query" name="s" type="search" placeholder="Type &amp; Hit Enter...">
     <button type="submit"><i class="ti-search"></i></button>
   </form>
@@ -264,15 +250,15 @@
 <div class="widget">
   <h5 class="widget-title"><span>Categories</span></h5>
   <ul class="list-unstyled widget-list">
-    <li><a href="//categories/four-seasone" class="d-flex">Four seasone
+    <li><a href="/categories/four-seasone" class="d-flex">Four seasone
         <small class="ml-auto">(1)</small></a></li>
-    <li><a href="//categories/newyork-city" class="d-flex">Newyork city
+    <li><a href="/categories/newyork-city" class="d-flex">Newyork city
         <small class="ml-auto">(2)</small></a></li>
-    <li><a href="//categories/photobooth" class="d-flex">Photobooth
+    <li><a href="/categories/photobooth" class="d-flex">Photobooth
         <small class="ml-auto">(1)</small></a></li>
-    <li><a href="//categories/photography" class="d-flex">Photography
+    <li><a href="/categories/photography" class="d-flex">Photography
         <small class="ml-auto">(2)</small></a></li>
-    <li><a href="//categories/videography" class="d-flex">Videography
+    <li><a href="/categories/videography" class="d-flex">Videography
         <small class="ml-auto">(1)</small></a></li>
   </ul>
 </div>
@@ -281,19 +267,19 @@
   <h5 class="widget-title"><span>Tags</span></h5>
   <ul class="list-inline widget-list-inline">
     <li class="list-inline-item"><a
-        href="//tags/booth">Booth</a></li>
+        href="/tags/booth">Booth</a></li>
     <li class="list-inline-item"><a
-        href="//tags/city">City</a></li>
+        href="/tags/city">City</a></li>
     <li class="list-inline-item"><a
-        href="//tags/image">Image</a></li>
+        href="/tags/image">Image</a></li>
     <li class="list-inline-item"><a
-        href="//tags/new">New</a></li>
+        href="/tags/new">New</a></li>
     <li class="list-inline-item"><a
-        href="//tags/photo">Photo</a></li>
+        href="/tags/photo">Photo</a></li>
     <li class="list-inline-item"><a
-        href="//tags/seasone">Seasone</a></li>
+        href="/tags/seasone">Seasone</a></li>
     <li class="list-inline-item"><a
-        href="//tags/video">Video</a></li>
+        href="/tags/video">Video</a></li>
   </ul>
 </div>
 <!-- latest post -->
@@ -362,7 +348,7 @@
     <div class="row justify-content-between">
       <div class="col-md-3 mb-4">
         <a class="mb-4 d-block" href="/"><img class="img-fluid" width="150px"
-            src="https://oyara.github.io/images/logo.png" alt="LogBook | Hugo Personal Blog Template"></a>
+            src="https://oyara.github.io/images/logo.png" alt="Rayo Blog"></a>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
       </div>
       <div class="col-lg-2 col-md-3 col-6 mb-4">

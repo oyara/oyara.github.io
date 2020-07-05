@@ -63,21 +63,6 @@
   </url>
   
   <url>
-    <loc>https://oyara.github.io/fr/</loc>
-    <lastmod>2020-03-15T15:40:24+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://oyara.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://oyara.github.io/fr/"
-                />
-  </url>
-  
-  <url>
     <loc>https://oyara.github.io/fr/tags/photo/</loc>
     <lastmod>2020-03-15T15:40:24+06:00</lastmod>
     <xhtml:link
@@ -104,6 +89,21 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://oyara.github.io/fr/categories/photography/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://oyara.github.io/fr/</loc>
+    <lastmod>2020-03-15T15:40:24+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://oyara.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://oyara.github.io/fr/"
                 />
   </url>
   
