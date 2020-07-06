@@ -212,7 +212,7 @@ a:hover {
 .overflow-hidden {
   overflow: hidden; }
 
-.rounded-lg, .post-slider {
+.rounded-lg {
   border-radius: 10px !important; }
 
 .border-default {
@@ -339,18 +339,6 @@ a:hover {
   .post-meta a:hover {
     color: #ce8460; }
 
-.recent-thumb-alt {
-  font-size: 0;
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  background-color: #ce8460;
-  text-align: center; }
-  .recent-thumb-alt::first-letter {
-    font-size: 40px;
-    line-height: 60px;
-    color: #fff; }
-
 .social-icons {
   margin-bottom: 0; }
   .social-icons a {
@@ -360,62 +348,6 @@ a:hover {
     font-size: 14px; }
     .social-icons a:hover {
       color: #ce8460; }
-
-.social-icons-rounded {
-  margin-bottom: 0; }
-  .social-icons-rounded a {
-    display: block;
-    color: #888c8e;
-    font-size: 14px;
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-    border-radius: 50%;
-    border: 1px solid #ddd; }
-    .social-icons-rounded a:hover {
-      color: #ce8460;
-      border-color: #ce8460; }
-
-.post-slider {
-  overflow: hidden;
-  margin-bottom: 20px; }
-  .post-slider img {
-    border-radius: inherit; }
-  .post-slider:hover .prevArrow {
-    left: 10px; }
-  .post-slider:hover .nextArrow {
-    right: 10px; }
-
-.slider-sm .slick-arrow {
-  height: 35px;
-  width: 35px;
-  line-height: 35px; }
-
-.slick-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 9;
-  height: 50px;
-  width: 50px;
-  line-height: 50px;
-  border-radius: 50%;
-  background: rgba(206, 132, 96, 0.5);
-  color: #fff;
-  border: 0; }
-  @media (max-width: 575px) {
-    .slick-arrow {
-      display: none; } }
-  .slick-arrow:focus {
-    outline: 0; }
-  .slick-arrow:hover {
-    background: #ce8460; }
-
-.prevArrow {
-  left: -60px; }
-
-.nextArrow {
-  right: -60px; }
 
 .pagination {
   margin-top: 50px; }
