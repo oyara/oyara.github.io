@@ -2,76 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Rayo Blog</title>
-    <link>/fr/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Rayo Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <copyright>Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)</copyright>
     <lastBuildDate>Sun, 15 Mar 2020 15:40:24 +0600</lastBuildDate>
     
-	<atom:link href="/fr/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>image</title>
-      <link>/fr/tags/image/</link>
+      <link>/tags/image/</link>
       <pubDate>Sun, 15 Mar 2020 15:40:24 +0600</pubDate>
       
-      <guid>/fr/tags/image/</guid>
+      <guid>/tags/image/</guid>
       <description></description>
     </item>
     
     <item>
       <title>photo</title>
-      <link>/fr/tags/photo/</link>
+      <link>/tags/photo/</link>
       <pubDate>Sun, 15 Mar 2020 15:40:24 +0600</pubDate>
       
-      <guid>/fr/tags/photo/</guid>
+      <guid>/tags/photo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>booth</title>
-      <link>/fr/tags/booth/</link>
+      <link>/tags/booth/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
       
-      <guid>/fr/tags/booth/</guid>
+      <guid>/tags/booth/</guid>
       <description></description>
     </item>
     
     <item>
       <title>city</title>
-      <link>/fr/tags/city/</link>
+      <link>/tags/city/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
       
-      <guid>/fr/tags/city/</guid>
+      <guid>/tags/city/</guid>
       <description></description>
     </item>
     
     <item>
       <title>new</title>
-      <link>/fr/tags/new/</link>
+      <link>/tags/new/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
       
-      <guid>/fr/tags/new/</guid>
+      <guid>/tags/new/</guid>
       <description></description>
     </item>
     
     <item>
       <title>seasone</title>
-      <link>/fr/tags/seasone/</link>
+      <link>/tags/seasone/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
       
-      <guid>/fr/tags/seasone/</guid>
+      <guid>/tags/seasone/</guid>
       <description></description>
     </item>
     
     <item>
       <title>video</title>
-      <link>/fr/tags/video/</link>
+      <link>/tags/video/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
       
-      <guid>/fr/tags/video/</guid>
+      <guid>/tags/video/</guid>
       <description></description>
     </item>
     
