@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>videography on Rayo Blog</title>
-    <link>https://oyara.github.io/frhttps://oyara.github.io/categories/videography/</link>
+    <link>/categories/videography/</link>
     <description>Recent content in videography on Rayo Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <copyright>Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)</copyright>
     <lastBuildDate>Sat, 14 Mar 2020 15:40:24 +0600</lastBuildDate>
     
-	<atom:link href="https://oyara.github.io/frhttps://oyara.github.io/categories/videography/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/videography/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

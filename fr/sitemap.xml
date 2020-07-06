@@ -8,7 +8,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://oyara.github.io/post/"
+                href="/post/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -18,7 +18,7 @@
   </url>
   
   <url>
-    <loc>https://oyara.github.io/frhttps://oyara.github.io/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2020-03-15T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -28,7 +28,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://oyara.github.io/frhttps://oyara.github.io/categories/"
+                href="/categories/"
                 />
   </url>
   
@@ -38,7 +38,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://oyara.github.io/post/elements/"
+                href="/post/elements/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -78,7 +78,7 @@
   </url>
   
   <url>
-    <loc>https://oyara.github.io/frhttps://oyara.github.io/categories/photography/</loc>
+    <loc>/categories/photography/</loc>
     <lastmod>2020-03-15T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -88,7 +88,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://oyara.github.io/frhttps://oyara.github.io/categories/photography/"
+                href="/categories/photography/"
                 />
   </url>
   
@@ -98,7 +98,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://oyara.github.io/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -143,7 +143,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://oyara.github.io/post/post-1/"
+                href="/post/post-1/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -158,7 +158,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://oyara.github.io/post/post-2/"
+                href="/post/post-2/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -173,7 +173,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://oyara.github.io/post/post-3/"
+                href="/post/post-3/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -188,7 +188,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://oyara.github.io/post/post-4/"
+                href="/post/post-4/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -203,7 +203,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://oyara.github.io/post/post-5/"
+                href="/post/post-5/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -218,7 +218,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://oyara.github.io/post/post-6/"
+                href="/post/post-6/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -243,7 +243,7 @@
   </url>
   
   <url>
-    <loc>https://oyara.github.io/frhttps://oyara.github.io/categories/four-seasone/</loc>
+    <loc>/categories/four-seasone/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -253,7 +253,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://oyara.github.io/frhttps://oyara.github.io/categories/four-seasone/"
+                href="/categories/four-seasone/"
                 />
   </url>
   
@@ -273,7 +273,7 @@
   </url>
   
   <url>
-    <loc>https://oyara.github.io/frhttps://oyara.github.io/categories/newyork-city/</loc>
+    <loc>/categories/newyork-city/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -283,12 +283,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://oyara.github.io/frhttps://oyara.github.io/categories/newyork-city/"
+                href="/categories/newyork-city/"
                 />
   </url>
   
   <url>
-    <loc>https://oyara.github.io/frhttps://oyara.github.io/categories/photobooth/</loc>
+    <loc>/categories/photobooth/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -298,7 +298,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://oyara.github.io/frhttps://oyara.github.io/categories/photobooth/"
+                href="/categories/photobooth/"
                 />
   </url>
   
@@ -333,7 +333,7 @@
   </url>
   
   <url>
-    <loc>https://oyara.github.io/frhttps://oyara.github.io/categories/videography/</loc>
+    <loc>/categories/videography/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -343,12 +343,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://oyara.github.io/frhttps://oyara.github.io/categories/videography/"
+                href="/categories/videography/"
                 />
   </url>
   
   <url>
-    <loc>https://oyara.github.io/frhttps://oyara.github.io/author/</loc>
+    <loc>/author/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -357,7 +357,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://oyara.github.io/frhttps://oyara.github.io/author/"
+                href="/author/"
                 />
   </url>
   
@@ -366,7 +366,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://oyara.github.io/about/"
+                href="/about/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -380,7 +380,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://oyara.github.io/search/"
+                href="/search/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -390,7 +390,7 @@
   </url>
   
   <url>
-    <loc>https://oyara.github.io/frhttps://oyara.github.io/author/john-doe/</loc>
+    <loc>/author/john-doe/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -399,7 +399,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://oyara.github.io/frhttps://oyara.github.io/author/john-doe/"
+                href="/author/john-doe/"
                 />
   </url>
   
@@ -408,7 +408,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://oyara.github.io/privacy-policy/"
+                href="/privacy-policy/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -422,7 +422,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://oyara.github.io/terms-conditions/"
+                href="/terms-conditions/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -436,7 +436,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://oyara.github.io/contact/"
+                href="/contact/"
                 />
     <xhtml:link
                 rel="alternate"
