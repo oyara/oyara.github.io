@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Talk To Me Anytime :) on Rayo Blog</title>
-    <link>/contact/</link>
-    <description>Recent content in Talk To Me Anytime :) on Rayo Blog</description>
+    <title>Talk To Me Anytime :) on LogBook | Hugo Personal Blog Template</title>
+    <link>http://demo.themefisher.com/logbook-hugo/list-right/contact/</link>
+    <description>Recent content in Talk To Me Anytime :) on LogBook | Hugo Personal Blog Template</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)</copyright>
     
-	<atom:link href="/contact/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://demo.themefisher.com/logbook-hugo/list-right/contact/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

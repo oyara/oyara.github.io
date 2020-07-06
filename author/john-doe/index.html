@@ -11,25 +11,25 @@
 
   <!-- plugins -->
   
-  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="http://demo.themefisher.com/logbook-hugo/list-right/plugins/bootstrap/bootstrap.min.css">
   
-  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="http://demo.themefisher.com/logbook-hugo/list-right/plugins/themify-icons/themify-icons.css">
   
-  <link rel="stylesheet" href="/plugins/slick/slick.css">
+  <link rel="stylesheet" href="http://demo.themefisher.com/logbook-hugo/list-right/plugins/slick/slick.css">
   
 
   <!-- Main Stylesheet -->
   
-  <link rel="stylesheet" href="/scss/style.css" media="screen">
+  <link rel="stylesheet" href="http://demo.themefisher.com/logbook-hugo/list-right/scss/style.css" media="screen">
 
   <!--Favicon-->
-  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
-  <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="http://demo.themefisher.com/logbook-hugo/list-right/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="http://demo.themefisher.com/logbook-hugo/list-right/images/favicon.png" type="image/x-icon">
 
   <meta property="og:title" content="John Doe" />
 <meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet. Donec nisi dolor, consequat vel pretium id, auctor in dui. Nam iaculis, neque ac ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/author/john-doe/" />
+<meta property="og:url" content="http://demo.themefisher.com/logbook-hugo/list-right/author/john-doe/" />
 
 
   
@@ -46,8 +46,8 @@
   <div class="container">
     
     <nav class="navbar navbar-expand-lg navbar-white">
-      <a class="navbar-brand" href="/">
-        <img class="img-fluid" width="150px" src="/images/logo.png" alt="Rayo Blog"></a>
+      <a class="navbar-brand" href="/logbook-hugo/list-right">
+        <img class="img-fluid" width="150px" src="http://demo.themefisher.com/logbook-hugo/list-right/images/logo.png" alt="LogBook | Hugo Personal Blog Template"></a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu"></i>
       </button>
@@ -56,20 +56,38 @@
         <ul class="navbar-nav ml-auto">
           
           
-			<li class="nav-item">
-				<a class="nav-link" href="/">Homepage</a>
-			  </li>
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              homepage <i class="ti-angle-down ml-1"></i>
+            </a>
+            <div class="dropdown-menu">
+              
+              <a class="dropdown-item" href="http://demo.themefisher.com/logbook-hugo/full-width/">Homepage Full Width</a>
+              
+              <a class="dropdown-item" href="http://demo.themefisher.com/logbook-hugo/full-left/">Homepage Full With Left Sidebar</a>
+              
+              <a class="dropdown-item" href="http://demo.themefisher.com/logbook-hugo/full-right/">Homepage Full With Right Sidebar</a>
+              
+              <a class="dropdown-item" href="http://demo.themefisher.com/logbook-hugo/list-style/">Homepage List Style</a>
+              
+              <a class="dropdown-item" href="http://demo.themefisher.com/logbook-hugo/list-left/">Homepage List With Left Sidebar</a>
+              
+              <a class="dropdown-item" href="http://demo.themefisher.com/logbook-hugo/list-right/">Homepage List With Right Sidebar</a>
+              
+            </div>
           </li>
           
           
           
           <li class="nav-item">
-            <a class="nav-link" href="/contact">Contact</a>
+            <a class="nav-link" href="http://demo.themefisher.com/logbook-hugo/list-right/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://demo.themefisher.com/logbook-hugo/list-right/contact">Contact</a>
           </li>
           
           
@@ -81,13 +99,13 @@
             </a>
             <div class="dropdown-menu">
               
-              <a class="dropdown-item" href="/author/john-doe">Author</a>
+              <a class="dropdown-item" href="http://demo.themefisher.com/logbook-hugo/list-right/author/john-doe">Author</a>
               
-              <a class="dropdown-item" href="/categories/photography">Category</a>
+              <a class="dropdown-item" href="http://demo.themefisher.com/logbook-hugo/list-right/categories/photography">Category</a>
               
-              <a class="dropdown-item" href="/tags/photo">Tags</a>
+              <a class="dropdown-item" href="http://demo.themefisher.com/logbook-hugo/list-right/tags/photo">Tags</a>
               
-              <a class="dropdown-item" href="/search/?s=image">Search</a>
+              <a class="dropdown-item" href="http://demo.themefisher.com/logbook-hugo/full-width/search/?s=image">Search</a>
               
             </div>
           </li>
@@ -99,13 +117,11 @@
         
 
         
-
-        
         <!-- search -->
         <div class="search px-4">
           <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
           <div class="search-wrapper">
-            <form action="/search" class="h-100">
+            <form action="/logbook-hugo/list-right/search" class="h-100">
               <input class="search-box pl-4" id="search-query" name="s" type="search" placeholder="Type &amp; Hit Enter...">
             </form>
             <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
@@ -138,7 +154,7 @@
 
 			<div class="col-lg-3 col-md-4 mb-4 mb-md-0 text-center text-md-left">
 				
-				<img class="rounded-lg img-fluid" src="/imageshttps://oyara.github.io/author.jpg">
+				<img class="rounded-lg img-fluid" src="http://demo.themefisher.com/logbook-hugo/list-right/images/author.jpg">
 				
 			</div>
 			<div class="col-lg-9 col-md-8 content text-center text-md-left">
@@ -164,30 +180,30 @@
 					
 					<div class="post-slider slider-sm">
 						
-						<img src="/images/post/post-6.jpg" class="img-fluid" alt="post-thumb">
+						<img src="http://demo.themefisher.com/logbook-hugo/list-right/images/post/post-6.jpg" class="img-fluid" alt="post-thumb">
 						
-						<img src="/images/post/post-1.jpg" class="img-fluid" alt="post-thumb">
+						<img src="http://demo.themefisher.com/logbook-hugo/list-right/images/post/post-1.jpg" class="img-fluid" alt="post-thumb">
 						
-						<img src="/images/post/post-3.jpg" class="img-fluid" alt="post-thumb">
+						<img src="http://demo.themefisher.com/logbook-hugo/list-right/images/post/post-3.jpg" class="img-fluid" alt="post-thumb">
 						
 					</div>
 					
-					<h3 class="h5"><a class="post-title" href="/post/elements/">Elements That You Can Use To Create A New Post On This Template.</a></h3>
+					<h3 class="h5"><a class="post-title" href="http://demo.themefisher.com/logbook-hugo/list-right/post/elements/">Elements That You Can Use To Create A New Post On This Template.</a></h3>
 					<ul class="list-inline post-meta mb-2">
 						<li class="list-inline-item"><i class="ti-user mr-2"></i><a
-								href="/author/john-doe/">John Doe</a></li>
+								href="/logbook-hugo/list-right/author/john-doe/">John Doe</a></li>
 						<li class="list-inline-item">Date : March 15, 2020</li>
 						<li class="list-inline-item">Categories :
 							<a
-								href="/categories/photography" class="ml-1">Photography </a>
+								href="/logbook-hugo/list-right/categories/photography" class="ml-1">Photography </a>
 							</li>
 						<li class="list-inline-item">Tags : <a
-								href="/tags/photo" class="ml-1">Photo </a> ,<a
-								href="/tags/image" class="ml-1">Image </a> 
+								href="/logbook-hugo/list-right/tags/photo" class="ml-1">Photo </a> ,<a
+								href="/logbook-hugo/list-right/tags/image" class="ml-1">Image </a> 
 						</li>
 					</ul>
 					<p>Heading example Here is example of hedings. You can use this heading by following markdownify rules. …</p>
-					<a href="/post/elements/" class="btn btn-outline-primary">Continiue Reeading</a>
+					<a href="http://demo.themefisher.com/logbook-hugo/list-right/post/elements/" class="btn btn-outline-primary">Continiue Reeading</a>
 				</article>
 			</div>
 			
@@ -196,26 +212,26 @@
 					
 					<div class="post-slider slider-sm">
 						
-						<img src="/images/post/post-1.jpg" class="img-fluid" alt="post-thumb">
+						<img src="http://demo.themefisher.com/logbook-hugo/list-right/images/post/post-1.jpg" class="img-fluid" alt="post-thumb">
 						
 					</div>
 					
-					<h3 class="h5"><a class="post-title" href="/post/post-1/">Cheerful Loving Couple Bakers Drinking Coffee</a></h3>
+					<h3 class="h5"><a class="post-title" href="http://demo.themefisher.com/logbook-hugo/list-right/post/post-1/">Cheerful Loving Couple Bakers Drinking Coffee</a></h3>
 					<ul class="list-inline post-meta mb-2">
 						<li class="list-inline-item"><i class="ti-user mr-2"></i><a
-								href="/author/john-doe/">John Doe</a></li>
+								href="/logbook-hugo/list-right/author/john-doe/">John Doe</a></li>
 						<li class="list-inline-item">Date : March 14, 2020</li>
 						<li class="list-inline-item">Categories :
 							<a
-								href="/categories/photography" class="ml-1">Photography </a>
+								href="/logbook-hugo/list-right/categories/photography" class="ml-1">Photography </a>
 							</li>
 						<li class="list-inline-item">Tags : <a
-								href="/tags/photo" class="ml-1">Photo </a> ,<a
-								href="/tags/image" class="ml-1">Image </a> 
+								href="/logbook-hugo/list-right/tags/photo" class="ml-1">Photo </a> ,<a
+								href="/logbook-hugo/list-right/tags/image" class="ml-1">Image </a> 
 						</li>
 					</ul>
 					<p>It’s no secret that the digital industry is booming. From exciting startups to global brands, …</p>
-					<a href="/post/post-1/" class="btn btn-outline-primary">Continiue Reeading</a>
+					<a href="http://demo.themefisher.com/logbook-hugo/list-right/post/post-1/" class="btn btn-outline-primary">Continiue Reeading</a>
 				</article>
 			</div>
 			
@@ -224,28 +240,28 @@
 					
 					<div class="post-slider slider-sm">
 						
-						<img src="/images/post/post-2.jpg" class="img-fluid" alt="post-thumb">
+						<img src="http://demo.themefisher.com/logbook-hugo/list-right/images/post/post-2.jpg" class="img-fluid" alt="post-thumb">
 						
-						<img src="/images/post/post-4.jpg" class="img-fluid" alt="post-thumb">
+						<img src="http://demo.themefisher.com/logbook-hugo/list-right/images/post/post-4.jpg" class="img-fluid" alt="post-thumb">
 						
 					</div>
 					
-					<h3 class="h5"><a class="post-title" href="/post/post-2/">Cheerful Loving Couple Bakers Drinking Coffee</a></h3>
+					<h3 class="h5"><a class="post-title" href="http://demo.themefisher.com/logbook-hugo/list-right/post/post-2/">Cheerful Loving Couple Bakers Drinking Coffee</a></h3>
 					<ul class="list-inline post-meta mb-2">
 						<li class="list-inline-item"><i class="ti-user mr-2"></i><a
-								href="/author/john-doe/">John Doe</a></li>
+								href="/logbook-hugo/list-right/author/john-doe/">John Doe</a></li>
 						<li class="list-inline-item">Date : March 14, 2020</li>
 						<li class="list-inline-item">Categories :
 							<a
-								href="/categories/photobooth" class="ml-1">Photobooth </a>
+								href="/logbook-hugo/list-right/categories/photobooth" class="ml-1">Photobooth </a>
 							</li>
 						<li class="list-inline-item">Tags : <a
-								href="/tags/booth" class="ml-1">Booth </a> ,<a
-								href="/tags/image" class="ml-1">Image </a> 
+								href="/logbook-hugo/list-right/tags/booth" class="ml-1">Booth </a> ,<a
+								href="/logbook-hugo/list-right/tags/image" class="ml-1">Image </a> 
 						</li>
 					</ul>
 					<p>It’s no secret that the digital industry is booming. From exciting startups to global brands, …</p>
-					<a href="/post/post-2/" class="btn btn-outline-primary">Continiue Reeading</a>
+					<a href="http://demo.themefisher.com/logbook-hugo/list-right/post/post-2/" class="btn btn-outline-primary">Continiue Reeading</a>
 				</article>
 			</div>
 			
@@ -254,26 +270,26 @@
 					
 					<div class="post-slider slider-sm">
 						
-						<img src="/images/post/post-3.jpg" class="img-fluid" alt="post-thumb">
+						<img src="http://demo.themefisher.com/logbook-hugo/list-right/images/post/post-3.jpg" class="img-fluid" alt="post-thumb">
 						
 					</div>
 					
-					<h3 class="h5"><a class="post-title" href="/post/post-3/">Cheerful Loving Couple Bakers Drinking Coffee</a></h3>
+					<h3 class="h5"><a class="post-title" href="http://demo.themefisher.com/logbook-hugo/list-right/post/post-3/">Cheerful Loving Couple Bakers Drinking Coffee</a></h3>
 					<ul class="list-inline post-meta mb-2">
 						<li class="list-inline-item"><i class="ti-user mr-2"></i><a
-								href="/author/john-doe/">John Doe</a></li>
+								href="/logbook-hugo/list-right/author/john-doe/">John Doe</a></li>
 						<li class="list-inline-item">Date : March 14, 2020</li>
 						<li class="list-inline-item">Categories :
 							<a
-								href="/categories/videography" class="ml-1">Videography </a>
+								href="/logbook-hugo/list-right/categories/videography" class="ml-1">Videography </a>
 							</li>
 						<li class="list-inline-item">Tags : <a
-								href="/tags/video" class="ml-1">Video </a> ,<a
-								href="/tags/image" class="ml-1">Image </a> 
+								href="/logbook-hugo/list-right/tags/video" class="ml-1">Video </a> ,<a
+								href="/logbook-hugo/list-right/tags/image" class="ml-1">Image </a> 
 						</li>
 					</ul>
 					<p>It’s no secret that the digital industry is booming. From exciting startups to global brands, …</p>
-					<a href="/post/post-3/" class="btn btn-outline-primary">Continiue Reeading</a>
+					<a href="http://demo.themefisher.com/logbook-hugo/list-right/post/post-3/" class="btn btn-outline-primary">Continiue Reeading</a>
 				</article>
 			</div>
 			
@@ -282,28 +298,28 @@
 					
 					<div class="post-slider slider-sm">
 						
-						<img src="/images/post/post-4.jpg" class="img-fluid" alt="post-thumb">
+						<img src="http://demo.themefisher.com/logbook-hugo/list-right/images/post/post-4.jpg" class="img-fluid" alt="post-thumb">
 						
-						<img src="/images/post/post-1.jpg" class="img-fluid" alt="post-thumb">
+						<img src="http://demo.themefisher.com/logbook-hugo/list-right/images/post/post-1.jpg" class="img-fluid" alt="post-thumb">
 						
 					</div>
 					
-					<h3 class="h5"><a class="post-title" href="/post/post-4/">Cheerful Loving Couple Bakers Drinking Coffee</a></h3>
+					<h3 class="h5"><a class="post-title" href="http://demo.themefisher.com/logbook-hugo/list-right/post/post-4/">Cheerful Loving Couple Bakers Drinking Coffee</a></h3>
 					<ul class="list-inline post-meta mb-2">
 						<li class="list-inline-item"><i class="ti-user mr-2"></i><a
-								href="/author/john-doe/">John Doe</a></li>
+								href="/logbook-hugo/list-right/author/john-doe/">John Doe</a></li>
 						<li class="list-inline-item">Date : March 14, 2020</li>
 						<li class="list-inline-item">Categories :
 							<a
-								href="/categories/four-seasone" class="ml-1">Four seasone </a>
+								href="/logbook-hugo/list-right/categories/four-seasone" class="ml-1">Four seasone </a>
 							</li>
 						<li class="list-inline-item">Tags : <a
-								href="/tags/seasone" class="ml-1">Seasone </a> ,<a
-								href="/tags/new" class="ml-1">New </a> 
+								href="/logbook-hugo/list-right/tags/seasone" class="ml-1">Seasone </a> ,<a
+								href="/logbook-hugo/list-right/tags/new" class="ml-1">New </a> 
 						</li>
 					</ul>
 					<p>It’s no secret that the digital industry is booming. From exciting startups to global brands, …</p>
-					<a href="/post/post-4/" class="btn btn-outline-primary">Continiue Reeading</a>
+					<a href="http://demo.themefisher.com/logbook-hugo/list-right/post/post-4/" class="btn btn-outline-primary">Continiue Reeading</a>
 				</article>
 			</div>
 			
@@ -312,48 +328,48 @@
 					
 					<div class="post-slider slider-sm">
 						
-						<img src="/images/post/post-5.jpg" class="img-fluid" alt="post-thumb">
+						<img src="http://demo.themefisher.com/logbook-hugo/list-right/images/post/post-5.jpg" class="img-fluid" alt="post-thumb">
 						
 					</div>
 					
-					<h3 class="h5"><a class="post-title" href="/post/post-5/">Cheerful Loving Couple Bakers Drinking Coffee</a></h3>
+					<h3 class="h5"><a class="post-title" href="http://demo.themefisher.com/logbook-hugo/list-right/post/post-5/">Cheerful Loving Couple Bakers Drinking Coffee</a></h3>
 					<ul class="list-inline post-meta mb-2">
 						<li class="list-inline-item"><i class="ti-user mr-2"></i><a
-								href="/author/john-doe/">John Doe</a></li>
+								href="/logbook-hugo/list-right/author/john-doe/">John Doe</a></li>
 						<li class="list-inline-item">Date : March 14, 2020</li>
 						<li class="list-inline-item">Categories :
 							<a
-								href="/categories/newyork-city" class="ml-1">Newyork city </a>
+								href="/logbook-hugo/list-right/categories/newyork-city" class="ml-1">Newyork city </a>
 							</li>
 						<li class="list-inline-item">Tags : <a
-								href="/tags/city" class="ml-1">City </a> ,<a
-								href="/tags/photo" class="ml-1">Photo </a> 
+								href="/logbook-hugo/list-right/tags/city" class="ml-1">City </a> ,<a
+								href="/logbook-hugo/list-right/tags/photo" class="ml-1">Photo </a> 
 						</li>
 					</ul>
 					<p>It’s no secret that the digital industry is booming. From exciting startups to global brands, …</p>
-					<a href="/post/post-5/" class="btn btn-outline-primary">Continiue Reeading</a>
+					<a href="http://demo.themefisher.com/logbook-hugo/list-right/post/post-5/" class="btn btn-outline-primary">Continiue Reeading</a>
 				</article>
 			</div>
 			
 			<div class="col-lg-4 col-sm-6 mb-4">
 				<article class="mb-5">
 					
-					<h3 class="h5"><a class="post-title" href="/post/post-6/">Cheerful Loving Couple Bakers Drinking Coffee</a></h3>
+					<h3 class="h5"><a class="post-title" href="http://demo.themefisher.com/logbook-hugo/list-right/post/post-6/">Cheerful Loving Couple Bakers Drinking Coffee</a></h3>
 					<ul class="list-inline post-meta mb-2">
 						<li class="list-inline-item"><i class="ti-user mr-2"></i><a
-								href="/author/john-doe/">John Doe</a></li>
+								href="/logbook-hugo/list-right/author/john-doe/">John Doe</a></li>
 						<li class="list-inline-item">Date : March 14, 2020</li>
 						<li class="list-inline-item">Categories :
 							<a
-								href="/categories/newyork-city" class="ml-1">Newyork city </a>
+								href="/logbook-hugo/list-right/categories/newyork-city" class="ml-1">Newyork city </a>
 							</li>
 						<li class="list-inline-item">Tags : <a
-								href="/tags/city" class="ml-1">City </a> ,<a
-								href="/tags/photo" class="ml-1">Photo </a> 
+								href="/logbook-hugo/list-right/tags/city" class="ml-1">City </a> ,<a
+								href="/logbook-hugo/list-right/tags/photo" class="ml-1">Photo </a> 
 						</li>
 					</ul>
 					<p>It’s no secret that the digital industry is booming. From exciting startups to global brands, …</p>
-					<a href="/post/post-6/" class="btn btn-outline-primary">Continiue Reeading</a>
+					<a href="http://demo.themefisher.com/logbook-hugo/list-right/post/post-6/" class="btn btn-outline-primary">Continiue Reeading</a>
 				</article>
 			</div>
 			
@@ -364,21 +380,21 @@
   <div class="container">
     <div class="row justify-content-between">
       <div class="col-md-3 mb-4">
-        <a class="mb-4 d-block" href="/"><img class="img-fluid" width="150px"
-            src="/images/logo.png" alt="Rayo Blog"></a>
+        <a class="mb-4 d-block" href="/logbook-hugo/list-right"><img class="img-fluid" width="150px"
+            src="http://demo.themefisher.com/logbook-hugo/list-right/images/logo.png" alt="LogBook | Hugo Personal Blog Template"></a>
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
       </div>
       <div class="col-lg-2 col-md-3 col-6 mb-4">
         <h6 class="mb-4">Quick Links</h6>
         <ul class="list-unstyled footer-list">
           
-          <li><a href="/about">About</a></li>
+          <li><a href="http://demo.themefisher.com/logbook-hugo/list-right/about">About</a></li>
           
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="http://demo.themefisher.com/logbook-hugo/list-right/contact">Contact</a></li>
           
-          <li><a href="/privacy-policy">Privacy Policy</a></li>
+          <li><a href="http://demo.themefisher.com/logbook-hugo/list-right/privacy-policy">Privacy Policy</a></li>
           
-          <li><a href="/terms-conditions">Terms Conditions</a></li>
+          <li><a href="http://demo.themefisher.com/logbook-hugo/list-right/terms-conditions">Terms Conditions</a></li>
           
         </ul>
       </div>
@@ -428,27 +444,27 @@
 <!-- Search index -->
 
 <script>
-  var indexURL = "/index.json"
+  var indexURL = "http://demo.themefisher.com/logbook-hugo/list-right/index.json"
 </script>
 
 
 <!-- JS Plugins -->
 
-<script src="/plugins/jQuery/jquery.min.js"></script>
+<script src="http://demo.themefisher.com/logbook-hugo/list-right/plugins/jQuery/jquery.min.js"></script>
 
-<script src="/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="http://demo.themefisher.com/logbook-hugo/list-right/plugins/bootstrap/bootstrap.min.js"></script>
 
-<script src="/plugins/slick/slick.min.js"></script>
+<script src="http://demo.themefisher.com/logbook-hugo/list-right/plugins/slick/slick.min.js"></script>
 
-<script src="/plugins/search/fuse.min.js"></script>
+<script src="http://demo.themefisher.com/logbook-hugo/list-right/plugins/search/fuse.min.js"></script>
 
-<script src="/plugins/search/mark.js"></script>
+<script src="http://demo.themefisher.com/logbook-hugo/list-right/plugins/search/mark.js"></script>
 
-<script src="/plugins/search/search.js"></script>
+<script src="http://demo.themefisher.com/logbook-hugo/list-right/plugins/search/search.js"></script>
 
 
 <!-- Main Script -->
 
-<script src="/js/script.min.js"></script></body>
+<script src="http://demo.themefisher.com/logbook-hugo/list-right/js/script.min.js"></script></body>
 
 </html>
