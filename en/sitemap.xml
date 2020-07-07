@@ -22,11 +22,6 @@
     <lastmod>2020-03-15T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://oyara.github.io/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es"
                 href="https://oyara.github.io/es/categories/"
                 />
@@ -72,11 +67,6 @@
     <lastmod>2020-03-15T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://oyara.github.io/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es"
                 href="https://oyara.github.io/es/"
                 />
@@ -120,11 +110,6 @@
   <url>
     <loc>https://oyara.github.io/tags/</loc>
     <lastmod>2020-03-15T15:40:24+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://oyara.github.io/fr/tags/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"

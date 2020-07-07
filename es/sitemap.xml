@@ -27,11 +27,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://oyara.github.io/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es"
                 href="https://oyara.github.io/es/categories/"
                 />
@@ -77,11 +72,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="https://oyara.github.io/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es"
                 href="https://oyara.github.io/es/"
                 />
@@ -124,11 +114,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://oyara.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://oyara.github.io/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
