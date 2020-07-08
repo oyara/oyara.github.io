@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hi, I Am John Doe on LogBook | Hugo Personal Blog Template</title>
+    <title>Hi, I Am John Doe on Lightning Blog | Ángel Rayo</title>
     <link>https://oyara.github.io/es/search/</link>
-    <description>Recent content in Hi, I Am John Doe on LogBook | Hugo Personal Blog Template</description>
+    <description>Recent content in Hi, I Am John Doe on Lightning Blog | Ángel Rayo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <copyright>Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)</copyright>
+    <copyright>Diseñado por [Themefisher](https://themefisher.com/) Desarrollado por [Gethugothemes](https://gethugothemes.com/)</copyright>
     
 	<atom:link href="https://oyara.github.io/es/search/index.xml" rel="self" type="application/rss+xml" />
     
